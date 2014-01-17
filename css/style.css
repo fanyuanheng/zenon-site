@@ -376,6 +376,12 @@ footer {
   box-sizing: border-box;
 }
 @media (max-width: 767px) {
+	.header-1-sub {
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+}
+@media (max-width: 767px) {
   body > section,
   header,
   footer {
@@ -1583,7 +1589,7 @@ section * {
     margin-bottom: 0px;
   }
   .contacts-1 .phone big {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
@@ -2095,7 +2101,7 @@ body {
 }
 @media (max-width: 767px) {
   .content-23 .hero-unit.hero-unit-bordered h1 {
-    font-size: 42px;
+    font-size: 37px;
   }
 }
 .content-8 {

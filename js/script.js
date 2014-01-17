@@ -51,8 +51,7 @@ function fadedEls(el, shift) {
         };
 
         $('.header-10-sub .scroll-btn a').on('click', function(e) {
-            e.preventDefault();
-            $.scrollTo($(this).closest('section').next(), {
+            $.scrollTo($('#home'), {
                 axis : 'y',
                 duration : 500
             });
